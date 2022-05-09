@@ -16,7 +16,7 @@ https://roadmap.sh/frontend
 
 ---
 
-# THML
+# HTML
 
 ### 1. [Learn the basics](./HTML/Learn%20the%20basics.md)
 
