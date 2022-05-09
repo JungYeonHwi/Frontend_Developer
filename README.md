@@ -1,10 +1,14 @@
 https://roadmap.sh/frontend
 
+[1. Internet](Internet\README.md)
+
 # 1. Internet
 
 인터넷은 표준화된 프로토콜 set를 통해 통신하는 서로 연결된 컴퓨터의 글로벌 네트워크
 
-## (1) [The internet, explained](https://www.vox.com/2014/6/16/18076282/the-internet)
+## (1) How does the internet work?
+
+### [1] [The internet, explained](https://www.vox.com/2014/6/16/18076282/the-internet)
 
 **What is the Internet?**
 
@@ -211,3 +215,9 @@ https://roadmap.sh/frontend
 - .tv(섬나라 투발루)와 .io(영국령 인도양 준주)와 같은 일부 ccTLD는 본국 밖에서 사용할 수 있도록 인기를 끌고 있음
 - 2011년에 인터넷 주소 관리 기구는 새로운 gTLD를 더 쉽게 만들도록 투표
 - 그 결과, 향후 몇 년 동안 수십 개 또는 수백 개의 새로운 도메인이 생길 수 있음
+
+## (2) What is HTPP?
+
+### [1] [What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+
+**What is HTTP?**
