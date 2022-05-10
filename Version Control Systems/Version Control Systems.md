@@ -36,9 +36,14 @@
 
 ---
 
-### (2) [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+### (2) [Git & GitHub Crash Course For Beginners](https://youtu.be/SWYqp7iY_Tc)
 
-The Modern JavaScript Tutorial
+**What is git?**
+
+- 컴퓨터 파일의 변경 사항을 추적하기 위한 vcs
+- 2005년에 처음 만들어짐
+- Linux의 창시자이기도 한 Linus Torvalds이 만듬
+- 특정 언어나 프레임워크 또는 git을 사용한 데 필요한 모든 것이 없음
 
 ---
 

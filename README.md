@@ -55,3 +55,9 @@ https://roadmap.sh/frontend
 ### 2. [Repo hosting services](./Version%20Control%20Systems/Repo%20hosting%20services.md)
 
 ### 3. [Basic Usage of Git](./Version%20Control%20Systems/Basic%20Usage%20of%20Git.md)
+
+---
+
+# Web Security Knowledge
+
+### 1. [Web Security Knowledge](./Web%20Security%20Knowledge/Web%20Security%20Knowledge.md)
