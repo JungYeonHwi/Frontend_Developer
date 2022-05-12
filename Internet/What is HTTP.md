@@ -4,6 +4,14 @@
 
 (1) [What is HTTP?](#2-what-is-http)
 
+(2) [An overview of HTTP](#2-an-overview-of-httphttpsdevelopermozillaorgen-usdocswebhttpoverview)
+
+(3) [Journey to HTTP/2](#3-journey-to-http2httpskamranahmedinfoblog20160813http-in-depth)
+
+(4) [HTTP/3 From A To Z: Core Concepts](#4-http3-from-a-to-z-core-conceptshttpswwwsmashingmagazinecom202108http3-core-concepts-part1)
+
+(5) [HTTP Crash Course & Exploration](#5-http-crash-course--explorationhttpswwwyoutubecomwatchviym2zfp3zn0)
+
 ---
 
 ### (1) [What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
@@ -69,3 +77,13 @@
 - 원래 사양에서 HTTP 요청은 각각 TCP 연결을 만들고 닫았음
 - 새로운 버전의 HTTP 프로토콜(HTTP 1.1 이상)에서는 영구 연결을 통해 여러 HTTP 요청이 영구 TCP 연결을 통해 전달되도록 하여 리소스 소비를 개선
 - DoS 또는 DDoS 공격의 맥락에서, 많은 양의 HTTP 요청은 대상 장치에 대한 공격을 마운트하는 데 사용될 수 있으며, 애플리케이션 계층 공격 또는 계층 7 공격의 일부로 간주
+
+---
+
+### (2) [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
+### (3) [Journey to HTTP/2](https://kamranahmed.info/blog/2016/08/13/http-in-depth/)
+
+### (4) [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+
+### (5) [HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
