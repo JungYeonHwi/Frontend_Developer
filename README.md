@@ -107,3 +107,9 @@ https://roadmap.sh/frontend
 # Testing your Apps
 
 ### 1.[Testing your Apps](./Testing%20your%20Apps//Testing%20your%20Apps.md)
+
+---
+
+# Type Checkers
+
+### 1. [TypeScript](./Type%20Checkers/TypeScript.md)
