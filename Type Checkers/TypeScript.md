@@ -10,7 +10,7 @@
 
 **TypeScript for the New Programmer**
 
-- TS(TypeScript)와 JS(JavaScript)의 관계는 현대 프로그래밍 언어에서 다소 독특
+- TS(TypeScript)와 JS(JavaScript)의 관계는 현대 프로그래밍 언어에서 다소 독특;
 - What is JavaScript? A Brief History
   - JS(ECMAScript라고도 함)는 브라우저를 위한 간단한 스크립트 언어로 시작
   - JS 발명 당시 웹 페이지에 내장된 짧은 코드 조각에 사용될 것으로 예상
