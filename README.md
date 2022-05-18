@@ -20,7 +20,9 @@ https://roadmap.sh/frontend
 
 ### 1. [Learn the basics](./HTML/Learn%20the%20basics.md)
 
-### 2. []()
+### 2. [Writing Semantic HTML](./HTML/Writing%20Semantic%20HTML.md)
+
+### 3. [Forms and Validations](./HTML/Forms%20and%20Validations.md)
 
 ---
 

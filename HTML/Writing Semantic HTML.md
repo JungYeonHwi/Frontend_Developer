@@ -8,35 +8,38 @@
 
 ### (1) [W3Schools: Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
-- What are Semantic Elements?
-  - semantic element는 의미를 명확하게 설명 가능
-  - 의미 없는 element 예: `<div>`, `<span>`
-  - 의미 있는 element 예: `<form>`, `<table>`, `<article>`
-- Semantic Elements in HTML
-  - 많은 웹 사이트에는 다음과 같은 HTML 코드가 포함 : `<div id="nav"> <div class="header"> <div id="footer">`
-  - HTML에는 웹 페이지의 다른 부분을 정의하는 데 사용할 수 있는 몇 가지 의미 요소 존재
-    - `<article>`
-    - `<aside>`
-    - `<details>`
-    - `<figcaption>`
-    - `<figure>`
-    - `<footer>`
-    - `<header>`
-    - `<main>`
-    - `<mark>`
-    - `<nav>`
-    - `<section>`
-    - `<summary>`
-    - `<time>`
+**What are Semantic Elements?**
+
+- semantic element는 의미를 명확하게 설명 가능
+- 의미 없는 element 예: `<div>`, `<span>`
+- 의미 있는 element 예: `<form>`, `<table>`, `<article>`
+
+**Semantic Elements in HTML**
+
+- 많은 웹 사이트에는 다음과 같은 HTML 코드가 포함 : `<div id="nav"> <div class="header"> <div id="footer">`
+- HTML에는 웹 페이지의 다른 부분을 정의하는 데 사용할 수 있는 몇 가지 의미 요소 존재
+  - `<article>`
+  - `<aside>`
+  - `<details>`
+  - `<figcaption>`
+  - `<figure>`
+  - `<footer>`
+  - `<header>`
+  - `<main>`
+  - `<mark>`
+  - `<nav>`
+  - `<section>`
+  - `<summary>`
+  - `<time>`
 - HTML `<section>` Element
-  - `<section>` element 문서에서 섹션 정의
-  - HTML 문서에 따르면, "섹션은 일반적으로 제목이 있는 콘텐츠의 주제 그룹"
-  - `<section>` element를 사용할 수 있는 예:
-    - 챕터
-    - 서론
-    - 뉴스 항목
-    - 연락처 정보
-  - 웹 페이지는 일반적으로 소개, 내용 및 연락처 정보를 위한 섹션으로 분할 가능
+- `<section>` element 문서에서 섹션 정의
+- HTML 문서에 따르면, "섹션은 일반적으로 제목이 있는 콘텐츠의 주제 그룹"
+- `<section>` element를 사용할 수 있는 예:
+  - 챕터
+  - 서론
+  - 뉴스 항목
+  - 연락처 정보
+- 웹 페이지는 일반적으로 소개, 내용 및 연락처 정보를 위한 섹션으로 분할 가능
 
 ```
 <section>
@@ -59,15 +62,16 @@
 </section>
 ```
 
-- HTML `<article>` Element
-  - `<article>` element는 독립적이고 자체적인 콘텐츠를 지정
-  - `<article>`는 그 자체로 의미가 있어야 하며, 웹 사이트의 나머지 부분과 독립적으로 배포할 수 있어야 함
-  - `<article>` element를 사용할 수 있는 예:
-    - 포럼 게시물
-    - 블로그 게시물
-    - 사용자 설명
-    - 제품 카드
-    - 신문기사
+**HTML `<article>` Element**
+
+- `<article>` element는 독립적이고 자체적인 콘텐츠를 지정
+- `<article>`는 그 자체로 의미가 있어야 하며, 웹 사이트의 나머지 부분과 독립적으로 배포할 수 있어야 함
+- `<article>` element를 사용할 수 있는 예:
+  - 포럼 게시물
+  - 블로그 게시물
+  - 사용자 설명
+  - 제품 카드
+  - 신문기사
 
 ```
 <article>
@@ -95,18 +99,19 @@
 </article>
 ```
 
-- Nesting `<article>` in `<section>` or Vice Versa?
-  - `<article>` element는 독립적이고 자체적인 콘텐츠를 지정
-  - `<section>` element는 문서의 섹션을 정의
-  - 정의를 사용하여 이러한 요소를 내포하는 방법을 결정 불가능
-  - `<section>` element를 포함하는 `<article>` element와 `<article>` element를 HTML 페이지를 찾기 가능
+**Nesting `<article>` in `<section>` or Vice Versa?**
+
+- `<article>` element는 독립적이고 자체적인 콘텐츠를 지정
+- `<section>` element는 문서의 섹션을 정의
+- 정의를 사용하여 이러한 요소를 내포하는 방법을 결정 불가능
+- `<section>` element를 포함하는 `<article>` element와 `<article>` element를 HTML 페이지를 찾기 가능
 - HTML `<header>` Element
-  - `<header>` element는 소개 콘텐츠 또는 탐색 링크 집합을 위한 컨테이너
-  - `<header>` element에는 일반적으로 다음 포함
-    - 하나 이상의 제목 요소(`<h1>` - `<h6>`)
-    - 로고 또는 아이콘
-    - 저자 정보
-  - 하나의 HTML 문서에 여러 개의 `<header>` element가 존재 가능 그러나 `<header>`는 `<footer>`, `<address>` 또는 다른 `<header>` element 내에 배치 불가능
+- `<header>` element는 소개 콘텐츠 또는 탐색 링크 집합을 위한 컨테이너
+- `<header>` element에는 일반적으로 다음 포함
+  - 하나 이상의 제목 요소(`<h1>` - `<h6>`)
+  - 로고 또는 아이콘
+  - 저자 정보
+- 하나의 HTML 문서에 여러 개의 `<header>` element가 존재 가능 그러나 `<header>`는 `<footer>`, `<address>` 또는 다른 `<header>` element 내에 배치 불가능
 
 ```
 <article>
@@ -121,16 +126,17 @@
 </article>
 ```
 
-- HTML `<footer>` Element
-  - `<footer>` element는 문서 또는 섹션에 대한 바닥글을 정의
-  - `<footer>` element에는 일반적으로 다음이 포함
-    - 저자 정보
-    - 저작권 정보
-    - 연락처 정보
-    - 현장 지도
-    - 톱 링크
-    - 관련 document
-  - 하나의 문서에 여러 개의 `<footer>` element 존재 가능
+**HTML `<footer>` Element**
+
+- `<footer>` element는 문서 또는 섹션에 대한 바닥글을 정의
+- `<footer>` element에는 일반적으로 다음이 포함
+  - 저자 정보
+  - 저작권 정보
+  - 연락처 정보
+  - 현장 지도
+  - 톱 링크
+  - 관련 document
+- 하나의 문서에 여러 개의 `<footer>` element 존재 가능
 
 ```
 <footer>
@@ -139,7 +145,9 @@
 </footer>
 ```
 
-- HTML `<nav>` Element : `<nav>` element는 일련의 탐색 링크를 정의
+**HTML `<nav>` Element**
+
+- `<nav>` element는 일련의 탐색 링크를 정의
 
 ```
 <nav>
@@ -149,9 +157,10 @@
 </nav>
 ```
 
-- HTML `<aside>` Element
-  - `<aside>` element는 사이드바와 같이 배치되는 내용 외에 일부 내용을 정의
-  - `<aside>` 내용은 주변 콘텐츠와 간접적으로 관련되어야 함
+**HTML `<aside>` Element**
+
+- `<aside>` element는 사이드바와 같이 배치되는 내용 외에 일부 내용을 정의
+- `<aside>` 내용은 주변 콘텐츠와 간접적으로 관련되어야 함
 
 ```
 <p>
@@ -209,10 +218,11 @@
 </html>
 ```
 
-- HTML `<figure>` and `<figcaption>` Elements
-  - `<figure>`는 그림, 다이어그램, 사진, 코드 목록 등과 같은 자체 포함 콘텐츠를 지정
-  - `<figcaption>` 태그는 `<figure>` element에 대한 캡션을 정의, `<figcaption>` element는 `<figure>` element의 첫 번째 자식 또는 마지막 자식 요소로 배치 가능
-  - `<img>`는 실제 이미지/일러스트레이션을 정의
+**HTML `<figure>` and `<figcaption>` Elements**
+
+- `<figure>`는 그림, 다이어그램, 사진, 코드 목록 등과 같은 자체 포함 콘텐츠를 지정
+- `<figcaption>` 태그는 `<figure>` element에 대한 캡션을 정의, `<figcaption>` element는 `<figure>` element의 첫 번째 자식 또는 마지막 자식 요소로 배치 가능
+- `<img>`는 실제 이미지/일러스트레이션을 정의
 
 ```
 <figure>
@@ -221,8 +231,11 @@
 </figure>
 ```
 
-- Why Semantic Elements? : A semantic Web은 애플리케이션, 기업 및 커뮤니티에서 데이터를 공유하고 재사용을 가능하게 함
-- Semantic Elements in HTML
+**Why Semantic Elements?**
+
+- A semantic Web은 애플리케이션, 기업 및 커뮤니티에서 데이터를 공유하고 재사용을 가능하게 함
+
+**Semantic Elements in HTML**
 
 | Tag            | 설명                                                                |
 | -------------- | ------------------------------------------------------------------- |
