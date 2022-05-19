@@ -26,6 +26,10 @@ https://roadmap.sh/frontend
 
 ### 4. [Conventions and Best Practices](./HTML/Conventions%20and%20Best%20Practices.md)
 
+### 5. [Accessibility]()
+
+### 6. [SEO Basics]
+
 ---
 
 # CSS
