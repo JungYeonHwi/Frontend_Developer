@@ -121,3 +121,21 @@ https://roadmap.sh/frontend
 # Type Checkers
 
 ### 1. [TypeScript](./Type%20Checkers/TypeScript.md)
+
+---
+
+# Progressive Web Apps
+
+---
+
+# Server Side Rendering (SSR)
+
+---
+
+# GraphQL
+
+### 1. [GraphQL](./GraphQL/GraphQL.md)
+
+### 2. [Apollo](./GraphQL/Apollo.md)
+
+### 3. [Relay Modern](./GraphQL/Relay%20Modern.md)
