@@ -4,7 +4,7 @@
 
 ## (1) [What is the DOM?](#1-what-is-the-domhttpswwwfreecodecamporgnewswhat-is-the-dom-document-object-model-meaning-in-javascript)
 
-## (2) [Positioning Types: How Do They Differ?]
+## (2) [JavaScript HTML DOM](#2-javascript-html-domhttpswwww3schoolscomjsjshtmldomasp)
 
 ## (3) [The Box Model]
 
@@ -225,3 +225,37 @@ button.addEventListener("click", () => {
 - `document.createElement()`를 통해 문서에 새 요소를 추가 가능
 - `style` 속성 을 사용하여 요소의 인라인 CSS 스타일을 변경 가능
 - `addEventListener()`을 통해 버튼과 같은 요소에 이벤트를 추가
+
+---
+
+## (2) [JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
+
+**JavaScript HTML DOM**
+
+- The HTML DOM (Document Object Model)
+  - 웹 페이지가 로드 되면 브라우저 는 페이지의 문서 객체 모델 생성
+  - HTML DOM 모델은 Objects 트리로 구성
+    ![객체트리](./img/DOM%20%EA%B0%9D%EC%B2%B4%20%ED%8A%B8%EB%A6%AC.gif)
+  - 객체 모델을 통해 JavaScript는 동적 HTML을 생성하는 데 필요한 모든 기능을 얻기 가능
+    - JavaScript는 페이지의 모든 HTML 요소를 변경 가능
+    - JavaScript는 페이지의 모든 HTML 속성을 변경 가능
+    - JavaScript는 페이지의 모든 CSS 스타일을 변경 가능
+    - JavaScript는 기존 HTML 요소 및 속성을 제거 가능
+    - JavaScript는 새로운 HTML 요소와 속성을 추가 가능
+    - JavaScript는 페이지의 모든 기존 HTML 이벤트에 반응 가능
+    - JavaScript는 페이지에서 새로운 HTML 이벤트를 생성 가능
+- What is the DOM?
+  - DOM은 W3C(World Wide Web Consortium) 표준
+  - DOM은 문서 액세스 표준을 정의
+  - "W3C DOM(문서 개체 모델)은 프로그램과 스크립트가 문서의 내용, 구조 및 스타일에 동적으로 액세스하고 업데이트할 수 있도록 하는 플랫폼 및 언어 중립적 인터페이스"
+  - W3C DOM 표준은 세 부분으로 구분
+    - Core DOM : 모든 문서 유형에 대한 표준 모델
+    - XML DOM : XML ​​문서의 표준 모델
+    - HTML DOM : HTML 문서의 표준 모델
+- What is the HTML DOM?
+  - HTML DOM은 HTML용 표준 개체 모델 및 프로그래밍 인터페이스
+    - HTML 요소를 객체
+    - 모든 HTML 요소 의 속성
+    - 모든 HTML 요소에 액세스 하는 방법
+    - 모든 HTML 요소에 대한 이벤트
+  - 즉 , HTML DOM은 HTML 요소를 가져오고, 변경하고, 추가하거나 삭제하는 방법에 대한 표준
