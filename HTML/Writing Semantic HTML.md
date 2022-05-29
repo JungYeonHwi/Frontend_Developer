@@ -2,7 +2,8 @@
 
 <목차>
 
-(1) [W3Schools: Semantic HTML](#1-typescript)
+(1) [W3Schools: Semantic HTML](#1-w3schools-semantic-htmlhttpswwww3schoolscomhtmlhtml5semanticelementsasp)
+(2) [How To Write Semantic HTML](#2-how-to-write-semantic-htmlhttpshackernooncomhow-to-write-semantic-html-dkq3ulo)
 
 ---
 
@@ -252,3 +253,314 @@
 | `<section>`    | 문서에서 섹션을 정의                                                |
 | `<summary>`    | `<details>` element에 대해 표시되는 제목을 정의                     |
 | `<time>`       | 날짜/시간을 정의                                                    |
+
+---
+
+### (2) [How To Write Semantic HTML](https://hackernoon.com/how-to-write-semantic-html-dkq3ulo)
+
+**how to write semantic HTML?**
+
+- HTML5에서는 <div>`및`<span>` 의 불필요한 사용을 피하는 것
+- World Wide Web Consortium은 콘텐츠에 따라 모든 요소에 레이블을 지정할 것을 권장
+- 예를 들어, 문서의 상단 섹션을 그룹화하기 위해 `<header>` 대신해서 `<div class=header>` 사용
+- 훨씬 더 읽기 쉽고 접근 가능하며 이해하기 쉬움
+
+**Don't divide, better create sections.**
+
+- HTML5 이후로 `<section>` 태그가 있는데, 이는 주요 콘텐츠를 더 작은 콘텐츠 그룹으로 나누는 데 매우 유용
+- `<section>` 요소는 중첩될 수 있으며 올바른 형식의 제목 요소가 항상 존재해야만 함
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="container">
+      <section id="header">
+        <section id="header-content"></section>
+      </section>
+      <section id="section">Section content</section>
+      <section id="footer"></section>
+    </section>
+  </body>
+</html>
+```
+
+**Main content?**
+
+- 우리가 "주요 콘텐츠"를 언급할 때 정보에 대해 이야기할 때 다른 모든 것은 완전히 불필요
+- 정보의 무결성에 영향을 미치지 않고 마음대로 제거하거나 편집 가능
+
+**Self-contained**
+
+- 문서에서 완전한 정보로 완벽하게 작동하고 문서의 무결성에 영향을 미치지 않고 대체될 수 있는 섹션을 찾으면 `<article>` 요소 존재
+- 게시물과 뉴스는 `<article>` 예시
+- 마음대로 생성하고 교환할 수 있지만 문서 구조에는 영향을 미치지 않음
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <section id="header">
+        <section id="header-content"></section>
+      </section>
+      <article>
+        <h1>Article heading</h1>
+        <p>article content</p>
+      </article>
+      <section id="footer"></section>
+    </section>
+  </body>
+</html>
+```
+
+**`<section>` and `<article>` are workmates, not relatives.**
+
+- `<section>` 및 `<article>` 요소는 계층 구조의 일부로 생각되지 않고 실제로 함께 작동하도록 만들어짐
+- 의미 구조를 생성하는 경우 문제 없이 서로 내부에서 사용 가능
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <section id="header">
+        <section id="header-content"></section>
+      </section>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+      <section id="footer"></section>
+    </section>
+  </body>
+</html>
+```
+
+**Formally introducing content**
+
+- 제목이나 이미지를 통해 다음 콘텐츠를 소개하는 섹션이 있는 것이 일반적
+- 이러한 경우 `<header>` 를 사용 하여 해당 목적을 추구하는 모든 요소를 ​​그룹화 가능
+- 문서에 여러 헤더가 있을 수 있지만 조건은 하나뿐이므로 다른 `<header>` , `<footer>` 또는 `<address>` 요소 내에서 사용하지 않기
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section id="header-content"></section>
+    </header>
+    <section>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+      <section id="footer"></section>
+    </section>
+  </body>
+</html>
+```
+
+**Formally closing content**
+
+- 섹션 끝에 관련 요소에 태그를 지정하려면 `<footer>` 사용 가능
+- 크레딧, 저작권, 사이트맵, 보조 탐색 모음 등 이러한 모든 유형의 요소는 `<footer>` 태그 내에서 그룹화 가능
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section id="header-content"></section>
+    </header>
+    <section>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </section>
+    <footer></footer>
+  </body>
+</html>
+```
+
+**What about the controls?**
+
+- 아이콘 및 이미지와 같은 다른 요소와 함께 링크를 항상 탐색 모음으로 그룹화 가능
+- 이 목적을 위한 시맨틱 태그인 `<nav>` 요소도 존재
+- navbars에 어떤 기술을 사용하든 상관없이 모두 `<nav>` 요소에서 사용
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </section>
+    <footer></footer>
+  </body>
+</html>
+```
+
+**There can be only one.**
+
+- 주요 내용을 식별했음에도 불구하고 문서의 섹션에 기본 섹션으로 레이블을 지정해야 할 수도 있음
+- 이것은 `<main>` 요소를 사용하여 쉽게 해결 가능
+- `<main>` 요소는 문서에 고유한 콘텐츠 레이블을 지정하는 데 유용
+- 하나의 문서, 하나의 `<main>` 요소만 있을 수 있음
+- 이 의미 요소는 검색 엔진 최적화에 유용
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </main>
+    <section>
+      <h1>Section heading</h1>
+      <p>Section content</p>
+    </section>
+    <footer></footer>
+  </body>
+</html>
+```
+
+**If it is not main, put it aside!**
+
+- `<section>`, `<article>`, `<main>`, `<header>`, `<footer>` 및 `<nav>` 와 같은 요소 는 시맨틱 HTML 코드를 작성하는 훌륭한 도구
+- 내용 자체는 관련이 있으나 주요 내용의 일부가 아닌 경우에는 `<aside>` 요소 이용
+- 뉴스 피드, 광고 제안, 뉴스레터 양식 등과 같은 추가 콘텐츠에 레이블을 지정해야 할 때 사용
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </main>
+    <section>
+      <h1>Section heading</h1>
+      <p>Section content</p>
+    </section>
+    <aside>Auxiliary content</aside>
+    <footer></footer>
+  </body>
+</html>
+```
+
+**Just figure it!**
+
+- 기본 흐름에 있지만 필요할 때 해제할 수 있는 모든 콘텐츠에 레이블을 지정하는 데 유용한 요소가 있음
+- 마음대로 배치하거나 제거할 수 있는 자체 포함된 요소이기 때문에 `<article>`과 유사하지만 `<Figure>` 요소 존재
+- 보조 콘텐츠를 그룹화할 때 특히 유용
+- `<figcaption>` 과 함께 `<Figure>` 는 일러스트레이션, 차트, 다이어그램, 사진 등과 같은 콘텐츠를 표시하는 데 좋음
+
+```
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Article heading</h1>
+        <section>
+          <h2>Content heading</h2>
+          <p>article content</p>
+        </section>
+      </article>
+    </main>
+    <section>
+      <h1>Section heading</h1>
+      <p>Section content</p>
+    </section>
+    <aside>Auxiliary content</aside>
+    <footer>
+      <figure>
+        <img src="logo.png" alt="" />
+        <figcaption>Slogan</figcaption>
+      </figure>
+    </footer>
+  </body>
+</html>
+```
