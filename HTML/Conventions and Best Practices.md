@@ -2,7 +2,7 @@
 
 <목차>
 
-## (1) [HTML Best Practices](#1-html-best-practiceshttpsgithubcomhail2uhtml-best-practices)
+(1) [HTML Best Practices](#1-html-best-practiceshttpsgithubcomhail2uhtml-best-practices)
 
 ---
 

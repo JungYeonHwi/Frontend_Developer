@@ -3,8 +3,11 @@
 <목차>
 
 (1) [W3Schools — Learn CSS](#1-w3schools-learn-htmlhttpswwww3schoolscomhtmlhtmlintroasp)
+
 (2) [HTML Full Course - Build a Website Tutorial](#2-html-full-course---build-a-website-tutorialhttpswwwyoutubecomwatchvpqn-pnxpavg)
+
 (3) [HTML Tutorial for Beginners: HTML Crash Course](#3-html-tutorial-for-beginners-html-crash-coursehttpswwwyoutubecomwatchvqz0agyrrlhu)
+
 (4) [How does the Internet work?](#4-build-15-javascript-projects---vanilla-javascripthttpswwwyoutubecomwatchv3phxvlpokf4)
 
 ---

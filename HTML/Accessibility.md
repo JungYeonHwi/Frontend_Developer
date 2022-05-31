@@ -2,11 +2,11 @@
 
 <목차>
 
-## (1) [Complete Playlist on Accessibility](#1-html-best-practiceshttpswwwyoutubecomplaylistlistplnykxof6rcicwx0c9lvwwvqvhlyjyqw7g)
+(1) [Complete Playlist on Accessibility](#1-html-best-practiceshttpswwwyoutubecomplaylistlistplnykxof6rcicwx0c9lvwwvqvhlyjyqw7g)
 
-## (2) [Accessibility Tutorial](#2-accessibility-tutorialhttpswwww3schoolscomaccessibilityindexphp)
+(2) [Accessibility Tutorial](#2-accessibility-tutorialhttpswwww3schoolscomaccessibilityindexphp)
 
-## (3) [A Complete Guide To Accessible Front-End Components](#3-a-complete-guide-to-accessible-front-end-componentshttpswwwsmashingmagazinecom202103complete-guide-accessible-front-end-components)
+(3) [A Complete Guide To Accessible Front-End Components](#3-a-complete-guide-to-accessible-front-end-componentshttpswwwsmashingmagazinecom202103complete-guide-accessible-front-end-components)
 
 ---
 

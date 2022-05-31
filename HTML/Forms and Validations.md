@@ -2,7 +2,7 @@
 
 <목차>
 
-## (1) [MDN Web Docs: Client-side form validation](#1-mdn-web-docs-client-side-form-validationhttpsdevelopermozillaorgen-usdocslearnformsformvalidation)
+(1) [MDN Web Docs: Client-side form validation](#1-mdn-web-docs-client-side-form-validationhttpsdevelopermozillaorgen-usdocslearnformsformvalidation)
 
 ---
 

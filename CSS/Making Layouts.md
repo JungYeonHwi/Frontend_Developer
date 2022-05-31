@@ -2,13 +2,13 @@
 
 <목차>
 
-## (1) [All about Floats](#1-html-best-practiceshttpsgithubcomhail2uhtml-best-practices)
+(1) [All about Floats](#1-html-best-practiceshttpsgithubcomhail2uhtml-best-practices)
 
-## (2) [Positioning Types: How Do They Differ?]
+(2) [Positioning Types: How Do They Differ?]
 
-## (3) [The Box Model]
+(3) [The Box Model]
 
-## (4) [The CSS Display Property]
+(4) [The CSS Display Property]
 
 ---
 

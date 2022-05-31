@@ -2,15 +2,15 @@
 
 <목차>
 
-## (1) [Google Search Central — SEO Docs](#1-html-best-practiceshttpsgithubcomhail2uhtml-best-practices)
+(1) [Google Search Central — SEO Docs](#1-html-best-practiceshttpsgithubcomhail2uhtml-best-practices)
 
-## (2) [SEO Guide]
+(2) [SEO Guide]
 
-## (3) [SEO for Developers]
+(3) [SEO for Developers]
 
-## (4) [Complete SEO Course for Beginners]
+(4) [Complete SEO Course for Beginners]
 
-## (5) [SEO Expert Course]
+(5) [SEO Expert Course]
 
 ---
 
