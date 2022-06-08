@@ -321,8 +321,8 @@
 
 ### (2) [Learn Responsive Design]
 
-### (3) [Introduction To Responsive Web Design]
+---
 
-```
+### (3) [Introduction To Responsive Web Design]
 
 ```
