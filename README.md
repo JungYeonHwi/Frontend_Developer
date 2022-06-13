@@ -147,3 +147,5 @@ https://roadmap.sh/frontend
 ### 1. [Static Site Generators](./Static%20Site%20Generators/Static%20Site%20Generators.md)
 
 ### 2. [Next.js](./Static%20Site%20Generators/Next.js.md)
+
+---
