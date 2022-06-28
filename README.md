@@ -28,7 +28,7 @@ https://roadmap.sh/frontend
 
 ### 5. [Accessibility](./HTML/Accessibility.md)
 
-### 6. [SEO Basics]
+### 6. [SEO Basics](./HTML/SEO.md)
 
 ---
 
