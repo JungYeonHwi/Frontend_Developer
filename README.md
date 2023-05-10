@@ -96,6 +96,12 @@ https://roadmap.sh/frontend
 
 # Build Tools
 
+### 1. [Linters and Formatters](./Build%20Tools/Linters%20and%20Formatters.md)
+
+### 2. [Task Runners](./Build%20Tools/Task%20Runners.md)
+
+### 3. [Module Bundlers](./Build%20Tools/Module%20Bundlers.md)
+
 ---
 
 # Pick a Framework
