@@ -110,6 +110,14 @@ https://roadmap.sh/frontend
 
 ### 2. [React](./Pick%20a%20Framework/React/React.md)
 
+### 3. [Angular]
+
+### 4. [Vue.js]
+
+### 5. [Svelte]
+
+### 6. [Solid JS]
+
 ---
 
 # Modern CSS

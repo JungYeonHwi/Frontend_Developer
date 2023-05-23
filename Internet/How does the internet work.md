@@ -2,7 +2,7 @@
 
 <목차>
 
-(1) [The internet, explained](#1-the-internet-explainedhttpswwwvoxcom201461618076282the-internet))
+(1) [The internet, explained](#1-the-internet-explainedhttpswwwvoxcom201461618076282the-internet)
 (2) [How Does the Internet Work?](#2-how-does-the-internet-workhttpwebstanfordeduclassmsande91siwww-spr04readingsweek1internetwhitepaperhtm)
 (3) [Introduction to Internet](#3-introduction-to-internethttpsroadmapshguideswhat-is-internet)
 (4) [How does the Internet work?](#4-how-does-the-internet-workhttpswwwyoutubecomwatchvx3c1ih2njeg)

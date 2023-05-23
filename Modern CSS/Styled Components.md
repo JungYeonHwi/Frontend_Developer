@@ -8,7 +8,11 @@
 
 (3) [Styled Components Crash Course & Project](#3-styled-components-crash-course--projecthttpsyoutube02zo0hzmwnw)
 
+(3) [Styled Components](#1-styled)
+
 ---
+
+# (1) styled
 
 ### (1) [Official Website](https://styled-components.com/)
 

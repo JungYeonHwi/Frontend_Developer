@@ -13,9 +13,10 @@
 
 ### (1) [W3Schools – JavaScript Tutorial](https://www.w3schools.com/js/)
 
-**CSS Introduction**
+**Javascript Tutorial**
 
-The Modern JavaScript Tutorial
+- JavaScript는 세계에서 가장 인기 있는 프로그래밍 언어이자 웹의 프로그래밍 언어
+- JavaScript는 배우기 쉬움
 
 ---
 
